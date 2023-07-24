@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import me.parser.CSVWritable;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -29,6 +31,8 @@ public class Status implements CSVWritable {
 
     @Override
     public List<String> parseToCSVRecord() {
-        return Arrays.asList(String.valueOf(contactId), String.valueOf(clientId), String.valueOf(employeeId), status, contactTs.toString());
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        return Arrays.asList(String.valueOf(contactId), String.valueOf(clientId), String.valueOf(employeeId), status, dateFormat.format(contactTs));
     }
 }
