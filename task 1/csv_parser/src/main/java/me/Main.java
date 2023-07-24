@@ -35,7 +35,7 @@ public class Main {
                 .collect(Collectors.toList());
 
         CSVParser parser = new CSVParser();
-        File file = parser.parseToCSV(statuses, " | ", outputFilePath);
+        File file = parser.parseToCSV(statuses, "|", outputFilePath);
 
         if (file == null) {
             System.out.println("Output file not available");
