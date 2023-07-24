@@ -1,4 +1,4 @@
-package parser;
+package me.parser;
 
 import java.io.File;
 import java.io.FileOutputStream;

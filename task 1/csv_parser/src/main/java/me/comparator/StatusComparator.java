@@ -1,6 +1,6 @@
-package comparator;
+package me.comparator;
 
-import pojo.Status;
+import me.pojo.Status;
 import java.util.Comparator;
 
 public class StatusComparator implements Comparator<Status> {

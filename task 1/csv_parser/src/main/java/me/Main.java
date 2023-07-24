@@ -1,8 +1,10 @@
-import comparator.StatusComparator;
-import parser.CSVParser;
-import parser.CSVWritable;
-import parser.JSONParser;
-import pojo.Status;
+package me;
+
+import me.comparator.StatusComparator;
+import me.parser.CSVParser;
+import me.parser.CSVWritable;
+import me.parser.JSONParser;
+import me.pojo.Status;
 
 import java.io.File;
 import java.time.LocalDate;

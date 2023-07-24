@@ -1,11 +1,11 @@
-package pojo;
+package me.pojo;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import parser.CSVWritable;
+import me.parser.CSVWritable;
 
 import java.util.Arrays;
 import java.util.Date;
