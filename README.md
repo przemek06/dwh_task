@@ -30,3 +30,8 @@ and "status" = 'zainteresowany'
 ```
 
 W dwóch ostatnich kolumnach mam dodatkowe podzapytanie, które jest konieczne, żeby zdeterminować czy dany klient miał jakikolwiek rekord z określonym statusem (zainteresowant lub niezainteresowany w zależności od przypadku) przed najnowszym rekordem z danego dnia. 
+
+
+
+## Zadanie 4
+W zadaniu czwartym użyłem rekomendowanych bloczków i połączyłem je w odpowiedniej kolejności. Poza tym tylko wypełniłem mapowanie oraz zdefiniowałem po jakich kolumnach będzie się odbywało filtrowanie i sortowanie.  
